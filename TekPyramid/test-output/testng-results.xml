@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-01T15:10:45 IST" name="Suite" finished-at="2025-05-01T15:12:59 IST" duration-ms="133811">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateContactWithEmailTest.createContactWithEmailTest()[pri:0, instance:Contact.CreateContactWithEmailTest@433defed]" name="createContactWithEmailTest" class="Contact.CreateContactWithEmailTest"/>
+        <method signature="CreateCompanyWithNoOfEmpTest.createCompWithEmpNoTest()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@302c971f]" name="createCompWithEmpNoTest" class="Leads.CreateCompanyWithNoOfEmpTest"/>
+        <method signature="CreateCompanyWithPhoneNoTest.createCompWithPhoneNoTest()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@548a24a]" name="createCompWithPhoneNoTest" class="Leads.CreateCompanyWithPhoneNoTest"/>
+        <method signature="CreateContactWithEmailTest.createContactWithEmailTest()[pri:0, instance:Contact.CreateContactWithEmailTest@4b520ea8]" name="createContactWithEmailTest" class="Contact.CreateContactWithEmailTest"/>
+        <method signature="CreateCompanyWithNoOfEmpTest.createCompWithEmpNoTest()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@aba625]" name="createCompWithEmpNoTest" class="Leads.CreateCompanyWithNoOfEmpTest"/>
+        <method signature="CreateCompanyWithPhoneNoTest.createCompWithPhoneNoTest()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@5a5a729f]" name="createCompWithPhoneNoTest" class="Leads.CreateCompanyWithPhoneNoTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CreateContactWithEmailTest.createContactWithEmailTest()[pri:0, instance:Contact.CreateContactWithEmailTest@433defed]" name="createContactWithEmailTest" class="Contact.CreateContactWithEmailTest"/>
+        <method signature="CreateContactWithSupportDateTest.createContactWithSupportDateTest()[pri:0, instance:Contact.CreateContactWithSupportDateTest@1040be71]" name="createContactWithSupportDateTest" class="Contact.CreateContactWithSupportDateTest"/>
+        <method signature="CreateCompanyWithPhoneNoTest.createCompWithPhoneNoTest()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@548a24a]" name="createCompWithPhoneNoTest" class="Leads.CreateCompanyWithPhoneNoTest"/>
+        <method signature="CreateContactWithEmailTest.createContactWithEmailTest()[pri:0, instance:Contact.CreateContactWithEmailTest@4b520ea8]" name="createContactWithEmailTest" class="Contact.CreateContactWithEmailTest"/>
+        <method signature="CreateContactWithSupportDateTest.createContactWithSupportDateTest()[pri:0, instance:Contact.CreateContactWithSupportDateTest@97e93f1]" name="createContactWithSupportDateTest" class="Contact.CreateContactWithSupportDateTest"/>
+        <method signature="CreateCompanyWithPhoneNoTest.createCompWithPhoneNoTest()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@5a5a729f]" name="createCompWithPhoneNoTest" class="Leads.CreateCompanyWithPhoneNoTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2025-05-01T15:10:45 IST" name="TestRunner-chrome" finished-at="2025-05-01T15:12:57 IST" duration-ms="132528">
+      <class name="Contact.CreateContactWithSupportDateTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Contact.CreateContactWithSupportDateTest@97e93f1]" started-at="2025-05-01T15:11:21 IST" name="launchBrowser" finished-at="2025-05-01T15:11:24 IST" duration-ms="2865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:Contact.CreateContactWithSupportDateTest@97e93f1]" started-at="2025-05-01T15:11:24 IST" name="loginOperation" finished-at="2025-05-01T15:11:29 IST" duration-ms="5296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="createContactWithSupportDateTest()[pri:0, instance:Contact.CreateContactWithSupportDateTest@97e93f1]" started-at="2025-05-01T15:11:29 IST" name="createContactWithSupportDateTest" finished-at="2025-05-01T15:11:48 IST" duration-ms="19171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithSupportDateTest -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:Contact.CreateContactWithSupportDateTest@97e93f1]" started-at="2025-05-01T15:11:48 IST" name="logoutOperation" finished-at="2025-05-01T15:11:52 IST" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Contact.CreateContactWithSupportDateTest@97e93f1]" started-at="2025-05-01T15:11:52 IST" name="closeBrowser" finished-at="2025-05-01T15:11:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Contact.CreateContactWithSupportDateTest -->
+      <class name="Contact.CreateContactWithEmailTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Contact.CreateContactWithEmailTest@4b520ea8]" started-at="2025-05-01T15:12:25 IST" name="launchBrowser" finished-at="2025-05-01T15:12:28 IST" duration-ms="3511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:Contact.CreateContactWithEmailTest@4b520ea8]" started-at="2025-05-01T15:12:28 IST" name="loginOperation" finished-at="2025-05-01T15:12:34 IST" duration-ms="5582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="createContactWithEmailTest()[pri:0, instance:Contact.CreateContactWithEmailTest@4b520ea8]" started-at="2025-05-01T15:12:34 IST" name="createContactWithEmailTest" finished-at="2025-05-01T15:12:54 IST" duration-ms="20090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithEmailTest -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:Contact.CreateContactWithEmailTest@4b520ea8]" started-at="2025-05-01T15:12:54 IST" name="logoutOperation" finished-at="2025-05-01T15:12:57 IST" duration-ms="3538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Contact.CreateContactWithEmailTest@4b520ea8]" started-at="2025-05-01T15:12:57 IST" name="closeBrowser" finished-at="2025-05-01T15:12:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Contact.CreateContactWithEmailTest -->
+      <class name="Leads.CreateCompanyWithNoOfEmpTest">
+        <test-method is-config="true" signature="dbConnection()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@aba625]" started-at="2025-05-01T15:10:45 IST" name="dbConnection" finished-at="2025-05-01T15:10:45 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@aba625]" started-at="2025-05-01T15:10:45 IST" name="launchBrowser" finished-at="2025-05-01T15:10:49 IST" duration-ms="4244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@aba625]" started-at="2025-05-01T15:10:49 IST" name="loginOperation" finished-at="2025-05-01T15:10:55 IST" duration-ms="5760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="createCompWithEmpNoTest()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@aba625]" started-at="2025-05-01T15:10:55 IST" name="createCompWithEmpNoTest" finished-at="2025-05-01T15:11:18 IST" duration-ms="22640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompWithEmpNoTest -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@aba625]" started-at="2025-05-01T15:11:18 IST" name="logoutOperation" finished-at="2025-05-01T15:11:21 IST" duration-ms="3481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@aba625]" started-at="2025-05-01T15:11:21 IST" name="closeBrowser" finished-at="2025-05-01T15:11:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@aba625]" started-at="2025-05-01T15:12:59 IST" name="closeDBConnection" finished-at="2025-05-01T15:12:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- Leads.CreateCompanyWithNoOfEmpTest -->
+      <class name="Leads.CreateCompanyWithPhoneNoTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@5a5a729f]" started-at="2025-05-01T15:11:52 IST" name="launchBrowser" finished-at="2025-05-01T15:11:55 IST" duration-ms="3790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@5a5a729f]" started-at="2025-05-01T15:11:55 IST" name="loginOperation" finished-at="2025-05-01T15:12:01 IST" duration-ms="5212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="createCompWithPhoneNoTest()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@5a5a729f]" started-at="2025-05-01T15:12:01 IST" name="createCompWithPhoneNoTest" finished-at="2025-05-01T15:12:21 IST" duration-ms="20635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompWithPhoneNoTest -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@5a5a729f]" started-at="2025-05-01T15:12:21 IST" name="logoutOperation" finished-at="2025-05-01T15:12:25 IST" duration-ms="3332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@5a5a729f]" started-at="2025-05-01T15:12:25 IST" name="closeBrowser" finished-at="2025-05-01T15:12:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Leads.CreateCompanyWithPhoneNoTest -->
+    </test> <!-- TestRunner-chrome -->
+    <test started-at="2025-05-01T15:10:45 IST" name="TestRunner-edge" finished-at="2025-05-01T15:12:59 IST" duration-ms="133811">
+      <class name="Contact.CreateContactWithSupportDateTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Contact.CreateContactWithSupportDateTest@1040be71]" started-at="2025-05-01T15:11:22 IST" name="launchBrowser" finished-at="2025-05-01T15:11:25 IST" duration-ms="3276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:Contact.CreateContactWithSupportDateTest@1040be71]" started-at="2025-05-01T15:11:25 IST" name="loginOperation" finished-at="2025-05-01T15:11:31 IST" duration-ms="5666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="createContactWithSupportDateTest()[pri:0, instance:Contact.CreateContactWithSupportDateTest@1040be71]" started-at="2025-05-01T15:11:31 IST" name="createContactWithSupportDateTest" finished-at="2025-05-01T15:11:49 IST" duration-ms="18400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithSupportDateTest -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:Contact.CreateContactWithSupportDateTest@1040be71]" started-at="2025-05-01T15:11:49 IST" name="logoutOperation" finished-at="2025-05-01T15:11:53 IST" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Contact.CreateContactWithSupportDateTest@1040be71]" started-at="2025-05-01T15:11:53 IST" name="closeBrowser" finished-at="2025-05-01T15:11:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Contact.CreateContactWithSupportDateTest -->
+      <class name="Contact.CreateContactWithEmailTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Contact.CreateContactWithEmailTest@433defed]" started-at="2025-05-01T15:12:26 IST" name="launchBrowser" finished-at="2025-05-01T15:12:29 IST" duration-ms="3551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:Contact.CreateContactWithEmailTest@433defed]" started-at="2025-05-01T15:12:29 IST" name="loginOperation" finished-at="2025-05-01T15:12:36 IST" duration-ms="6150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="createContactWithEmailTest()[pri:0, instance:Contact.CreateContactWithEmailTest@433defed]" started-at="2025-05-01T15:12:36 IST" name="createContactWithEmailTest" finished-at="2025-05-01T15:12:54 IST" duration-ms="18669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithEmailTest -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:Contact.CreateContactWithEmailTest@433defed]" started-at="2025-05-01T15:12:54 IST" name="logoutOperation" finished-at="2025-05-01T15:12:59 IST" duration-ms="4382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Contact.CreateContactWithEmailTest@433defed]" started-at="2025-05-01T15:12:59 IST" name="closeBrowser" finished-at="2025-05-01T15:12:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Contact.CreateContactWithEmailTest -->
+      <class name="Leads.CreateCompanyWithNoOfEmpTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@302c971f]" started-at="2025-05-01T15:10:45 IST" name="launchBrowser" finished-at="2025-05-01T15:10:49 IST" duration-ms="4175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@302c971f]" started-at="2025-05-01T15:10:49 IST" name="loginOperation" finished-at="2025-05-01T15:10:54 IST" duration-ms="5402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="createCompWithEmpNoTest()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@302c971f]" started-at="2025-05-01T15:10:54 IST" name="createCompWithEmpNoTest" finished-at="2025-05-01T15:11:17 IST" duration-ms="22809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompWithEmpNoTest -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@302c971f]" started-at="2025-05-01T15:11:17 IST" name="logoutOperation" finished-at="2025-05-01T15:11:22 IST" duration-ms="4560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Leads.CreateCompanyWithNoOfEmpTest@302c971f]" started-at="2025-05-01T15:11:22 IST" name="closeBrowser" finished-at="2025-05-01T15:11:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Leads.CreateCompanyWithNoOfEmpTest -->
+      <class name="Leads.CreateCompanyWithPhoneNoTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@548a24a]" started-at="2025-05-01T15:11:53 IST" name="launchBrowser" finished-at="2025-05-01T15:11:56 IST" duration-ms="2693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@548a24a]" started-at="2025-05-01T15:11:56 IST" name="loginOperation" finished-at="2025-05-01T15:12:02 IST" duration-ms="5858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="createCompWithPhoneNoTest()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@548a24a]" started-at="2025-05-01T15:12:02 IST" name="createCompWithPhoneNoTest" finished-at="2025-05-01T15:12:21 IST" duration-ms="19377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCompWithPhoneNoTest -->
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@548a24a]" started-at="2025-05-01T15:12:21 IST" name="logoutOperation" finished-at="2025-05-01T15:12:26 IST" duration-ms="4580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOperation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Leads.CreateCompanyWithPhoneNoTest@548a24a]" started-at="2025-05-01T15:12:26 IST" name="closeBrowser" finished-at="2025-05-01T15:12:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Leads.CreateCompanyWithPhoneNoTest -->
+    </test> <!-- TestRunner-edge -->
+  </suite> <!-- Suite -->
+</testng-results>
