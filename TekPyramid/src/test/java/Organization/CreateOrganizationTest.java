@@ -43,4 +43,10 @@ public class CreateOrganizationTest extends BaseClass{
 		sa.assertAll();	
 	}
 	
+	@Test
+	public void sample()
+	{
+		System.out.println("Jenkin execution will start whenever new build come");
+	}
+	
 }
