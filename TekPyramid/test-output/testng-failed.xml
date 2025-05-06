@@ -1,102 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="edge"/>
-  <test thread-count="2" parallel="tests" name="TestRunner-edge(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Contact.CreateContactWithSupportDateTest">
+      <class name="Leads.CreateCompanyTest">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="createContactWithSupportDateTest"/>
-          <include name="logoutOperation"/>
-          <include name="dbConnection"/>
-          <include name="closeDBConnection"/>
-          <include name="launchBrowser"/>
-          <include name="loginOperation"/>
-        </methods>
-      </class> <!-- Contact.CreateContactWithSupportDateTest -->
-      <class name="Leads.CreateCompanyWithPhoneNoTest">
-        <methods>
+          <include name="createCompanyTest"/>
           <include name="closeBrowser"/>
           <include name="logoutOperation"/>
           <include name="dbConnection"/>
           <include name="closeDBConnection"/>
           <include name="launchBrowser"/>
           <include name="loginOperation"/>
-          <include name="createCompWithPhoneNoTest"/>
         </methods>
-      </class> <!-- Leads.CreateCompanyWithPhoneNoTest -->
-      <class name="Contact.CreateContactWithEmailTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="logoutOperation"/>
-          <include name="createContactWithEmailTest"/>
-          <include name="dbConnection"/>
-          <include name="closeDBConnection"/>
-          <include name="launchBrowser"/>
-          <include name="loginOperation"/>
-        </methods>
-      </class> <!-- Contact.CreateContactWithEmailTest -->
-      <class name="Leads.CreateCompanyWithNoOfEmpTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="logoutOperation"/>
-          <include name="dbConnection"/>
-          <include name="createCompWithEmpNoTest"/>
-          <include name="closeDBConnection"/>
-          <include name="launchBrowser"/>
-          <include name="loginOperation"/>
-        </methods>
-      </class> <!-- Leads.CreateCompanyWithNoOfEmpTest -->
+      </class> <!-- Leads.CreateCompanyTest -->
     </classes>
-  </test> <!-- TestRunner-edge(failed) -->
-  <test thread-count="2" parallel="tests" name="TestRunner-chrome(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="Contact.CreateContactWithSupportDateTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="createContactWithSupportDateTest"/>
-          <include name="logoutOperation"/>
-          <include name="dbConnection"/>
-          <include name="closeDBConnection"/>
-          <include name="launchBrowser"/>
-          <include name="loginOperation"/>
-        </methods>
-      </class> <!-- Contact.CreateContactWithSupportDateTest -->
-      <class name="Leads.CreateCompanyWithPhoneNoTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="logoutOperation"/>
-          <include name="dbConnection"/>
-          <include name="closeDBConnection"/>
-          <include name="launchBrowser"/>
-          <include name="loginOperation"/>
-          <include name="createCompWithPhoneNoTest"/>
-        </methods>
-      </class> <!-- Leads.CreateCompanyWithPhoneNoTest -->
-      <class name="Contact.CreateContactWithEmailTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="logoutOperation"/>
-          <include name="createContactWithEmailTest"/>
-          <include name="dbConnection"/>
-          <include name="closeDBConnection"/>
-          <include name="launchBrowser"/>
-          <include name="loginOperation"/>
-        </methods>
-      </class> <!-- Contact.CreateContactWithEmailTest -->
-      <class name="Leads.CreateCompanyWithNoOfEmpTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="logoutOperation"/>
-          <include name="dbConnection"/>
-          <include name="createCompWithEmpNoTest"/>
-          <include name="closeDBConnection"/>
-          <include name="launchBrowser"/>
-          <include name="loginOperation"/>
-        </methods>
-      </class> <!-- Leads.CreateCompanyWithNoOfEmpTest -->
-    </classes>
-  </test> <!-- TestRunner-chrome(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

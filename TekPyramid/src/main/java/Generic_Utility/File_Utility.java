@@ -7,7 +7,7 @@ public class File_Utility {
 	
 	public String getDataFromPropertiesFile(String key) throws Throwable
 	{
-		FileInputStream fis=new FileInputStream("/TekPyramid/src/main/resources/CommonData/VTigerCommonData.propertyes");
+		FileInputStream fis=new FileInputStream("../TekPyramid/src/main/resources/CommonData/VTigerCommonData.properties");
 		Properties pro=new Properties();
 		pro.load(fis);
 		String data = pro.getProperty(key);
